@@ -1,0 +1,453 @@
+*{
+    text-decoration: none !important;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+#home{
+    background:linear-gradient(#0000008f,#0000008f) , url(../imgs/imgs/bg.jpg) ;
+    background-size: cover;
+    color: #fff !important;
+}
+nav  {
+    background-color: #00000065;
+}
+nav a {
+    color: #fff !important;
+}
+nav .nav-link {
+    margin-left: 16px;
+    padding-bottom: 1px !important;
+}
+nav .active {
+    border-bottom: 2px solid ;
+}
+#home h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+#home h1{
+    font-size: 4rem;
+}
+#home h1::after{
+    content: ' |';
+    font-size: 4rem;
+    font-weight: 500;
+    animation: job 15s linear infinite;
+}
+@keyframes job{
+    0%{
+        content:' |';
+    }
+    2%{
+        content:' D|';
+    }
+    4%{
+        content:' De|';
+    }
+    6%{
+        content:' Dev|';
+    }
+    8%{
+        content:' Deve|';
+    }
+    10%{
+        content:' Devel|';
+    }
+    12%{
+        content:' Develo|';
+    }
+    14%{
+        content:' Develop|';
+    }
+    16%{
+        content:' Develope|';
+    }
+    18%{
+        content:' Developer|';
+    }
+    25%{
+        content:' Develope|';
+    }
+    26%{
+        content:' Develop|';
+    }
+    27%{
+        content:' Develo|';
+    }
+    28%{
+        content:' Devel|';
+    }
+    29%{
+        content:' Deve|';
+    }
+    30%{
+        content:' Dev|';
+    }
+    31%{
+        content:' De|';
+    }
+    32%{
+        content:' D|';
+    }
+    33%{
+        content:'|';
+    }
+    35%{
+        content:' D|';
+    }
+    36%{
+        content:' De|';
+    }
+    37%{
+        content:' Des|';
+    }
+    38%{
+        content:' Desi|';
+    }
+    39%{
+        content:' Desig|';
+    }
+    40%{
+        content:' Design|';
+    }
+    41%{
+        content:' Designe|';
+    }
+    42%{
+        content:' Designer|';
+    }
+    49%{
+        content:' Designe|';
+    }
+    50%{
+        content:' Design|';
+    }
+    51%{
+        content:' Desig|';
+    }
+    52%{
+        content:' Desi|';
+    }
+    53%{
+        content:' Desi|';
+    }
+    54%{
+        content:' Des|';
+    }
+    55%{
+        content:' De|';
+    }
+    56%{
+        content:' D|';
+    }
+    57%{
+        content:' |';
+    }
+    58%{
+        content:'|';
+    }
+    66%{
+        content:' |';
+    }
+    67%{
+        content:' L|';
+    }
+    68%{
+        content:' La|';
+    }
+    69%{
+        content:' Lar|';
+    }
+    70%{
+        content:' Larr|';
+    }
+    71%{
+        content:' Larry|';
+    }
+    72%{
+        content:' Larry |';
+    }
+    73%{
+        content:' Larry D|';
+    }
+    74%{
+        content:' Larry Da|';
+    }
+    76%{
+        content:' Larry Dan|';
+    }
+    78%{
+        content:' Larry Dani|';
+    }
+    80%{
+        content:' Larry Danie|';
+    }
+    81%{
+        content:' Larry Daniel|';
+    }
+    83%{
+        content:' Larry Daniels|';
+    }
+    84%{
+        content:' Larry Daniel|';
+    }
+    86%{
+        content:' Larry Danie|';
+    }
+    88%{
+        content:' Larry Dani|';
+    }
+    90%{
+        content:' Larry Dan|';
+    }
+    91%{
+        content:' Larry Da|';
+    }
+    92%{
+        content:' Larry D|';
+    }
+    93%{
+        content:' Larry |';
+    }
+    94%{
+        content:' Larry|';
+    }
+    95%{
+        content:' Larr|';
+    }
+    96%{
+        content:' Lar|';
+    }
+    97%{
+        content:' La|';
+    }
+    98%{
+        content:' L|';
+    }
+    99%{
+        content:' |';
+    }
+    100%{
+        content:'|';
+    }
+    
+}
+#home .social-icon {
+    margin-top: 30px;
+    
+}
+#home .social-icon span {
+    padding: .5rem .75rem;
+    background: #00000073;
+    border-radius: 50%;
+    color: #fff !important;
+}
+#about .img{
+    position: relative;
+}
+#about .img::after{
+    content: '';
+    width: 85%;
+    height: 85%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    bottom: -2rem;
+    left: -2rem;
+    z-index: -1;
+}
+#about .myProg{
+    height: 1.5rem;
+    margin-block:2rem ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+}
+#about .myProg .progress-bar{
+    filter: drop-shadow(10px -5px 30px #000);
+    border-radius: 5px;
+}
+#about .btn-1:hover{
+    border: 1px solid ;
+    color: black;
+    background-color: #fff;
+}
+#servicres h2{
+    position: relative;
+    z-index: 0;
+}
+#servicres h2::after{
+    content: '';
+    width: 11rem;
+    height: 80%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    left: 50%;
+    bottom: -.5rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#servicres .card:hover i{
+    background-color: rgb(31, 31, 31) !important;
+    color: aliceblue;
+}
+#workes h2{
+    position:relative;
+    z-index: 0;
+}
+#workes h2::after{
+    content: '';
+    width: 11rem;
+    height: 80%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    left: 50%;
+    bottom: -.5rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#workes button.nav-link{
+    color: black;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 0;
+    margin-right: .5rem;
+}
+#workes button.active{
+    border-bottom: 2px solid black  ;
+
+}
+#workes .tab-content .item{
+    position: relative;
+}
+#workes .tab-content .item .layer{
+    width: 98%;
+    height: 98%;
+    margin: 3px;
+    position: relative;
+    position: absolute;
+    top: 5%;
+    background-color: rgba(255, 255, 255, 0.897);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#workes .tab-content .item .layer .text{
+    font-weight: 600;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    line-height: 2rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#workes .tab-content .item:hover .layer{
+    opacity: 1;
+    top: 0;
+}
+#workes .tab-content .item:hover .text{
+    visibility: visible;
+    line-height: normal;
+}
+#clients>h2{
+    position:relative;
+    z-index: 0;
+}
+#clients>h2::after{
+    content: '';
+    width: 17rem;
+    height: 80%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    left: 50%;
+    bottom: -.5rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#clients .carousel-item .img{
+    width: 10%;
+}
+#clients .carousel-item{
+    height: 20rem !important;
+}
+#clients .carousel-indicators button{
+    width: .75rem;
+    height: .75rem;
+    margin-inline: 1rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0) !important;
+}
+#team>h2{
+    position:relative;
+    z-index: 0;
+}
+#team>h2::after{
+    content: '';
+    width: 14rem;
+    height: 80%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    left: 50%;
+    bottom: -.5rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#team .card-body{
+    background-color: #43484d;
+}
+#contact>h2{
+    position:relative;
+    z-index: 0;
+}
+#contact>h2::after{
+    content: '';
+    width: 17rem;
+    height: 80%;
+    background: url(../imgs/imgs/dots.png);
+    position: absolute;
+    left: 50%;
+    bottom: -.5rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+#contact .card:hover i{
+    background-color: #000 !important;
+    color: #fff;
+}
+#contact form input{
+    padding: .5rem;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8d8d85d;
+}
+#contact form textarea{
+    padding-left: .5rem;
+    width: 93%;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8d8d85d;
+    resize: vertical;
+}
+#contact form button{
+    width: 10%;
+    margin-top: 1rem;
+    transform: translateX(-415%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
